@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #000000;
+  background-color: #a9a9a9;
   height: 100%;
 }
 
@@ -115,6 +115,17 @@ body {
   justify-content: space-between;
 }
 
+.intro h1, p {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.intro p {
+  padding: 1em;
+}
+
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
@@ -126,8 +137,8 @@ body {
   width: 30%;
   justify-content: center;
   align-items: center;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 
